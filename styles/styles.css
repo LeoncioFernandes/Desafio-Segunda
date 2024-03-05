@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.posicao{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    padding-top: 70px;
+}
+
+.imagem{
+    width: 360px;
+    height: 278px;
+}
+
+@font-face {
+    font-family:'Roboto';
+    src:url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins-Light.ttf");
+}
+
+.texto{
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 20.92px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.caixa{
+    width: 466px;
+    height: 57px;
+    background-color: #353535;
+    border-color: #C5C2C2;
+    border-width: 1.61px;
+    border-radius: 4.02px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+button{
+    background-color: #2FB23C;
+    font-family: Poppins;
+    font-size: 31.48px;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 191px;
+    height: 67px;
+    border-radius: 10px;
+    border: 0px;
+}
